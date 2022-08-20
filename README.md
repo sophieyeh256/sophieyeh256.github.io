@@ -1,4 +1,4 @@
-# Hello, welcome! 👋
+# Hi, I'm Sophie! 👋
 
 # Bio
 * Working at DuPont as a Data & Systems Analyst in Product Stewardship and Regulatory, participating in the Supply Chain Rotational Program.
