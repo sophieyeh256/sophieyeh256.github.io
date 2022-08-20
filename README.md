@@ -8,7 +8,7 @@
 # Data Science Projects
 
 ## [**Metagenome Environment Classification**](https://github.com/sophieyeh256/W207_Final_Project)
-### Decision Tree, XGB, Neural Net, SHAP, Biotech
+### _Decision Tree, XGB, Neural Net, SHAP, Biotech_
 Anywhere there is life, there is bacteria. Microbiologists have sequenced metagenome samples to assemble 
 sets of protein families plus the environment classificaiton from which the sample was collected. 
 This project aims to create an environment classifier for protein samples and analyze the feature 
@@ -16,14 +16,14 @@ importance within our final models.
 
 
 ## [**A Descriptive Analysis of Climate Change Accountability**](https://github.com/sophieyeh256/w200_project2_bluhm_kim_Yeh)
-### Data Visualization, Matplotlib, Plotly, Climate
+### _Data Visualization, Matplotlib, Plotly, Climate_
 One major debate at the 2021 UN Climate Change Conference is whether the world's wealthiest nations are the most responsible 
 for global warming and whether they should compensate poorer nations for increasingly severe weather. Thus, this project aims 
 to visualize and compare the severe weather experience between high- and low-polluters in the world.
 
 
 ## [**ACME Delivery Analytics**](https://github.com/sophieyeh256/DataEng_SQL/blob/main/ucb_mids_w205_project_3/Acme%20Delivery%20Strategy.pdf)
-### SQL, Neo4J, Data Engineering, Sales Analytics, Data Visualization
+### _SQL, Neo4J, Data Engineering, Sales Analytics, Data Visualization_
 ACME, a lunch delivery business, is looking into opening more locations in the Bay Area and investing in robots and/or drones in the future. 
 Customer data, sales data, and store data were queried using SQL and Neo4J then analyzed to assess business considerations.
 
