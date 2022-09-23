@@ -2,18 +2,15 @@
 
 # Bio
 * Working at DuPont as a Data & Systems Analyst in Product Stewardship and Regulatory, participating in the Supply Chain Rotational Program.
-* Pursuing a Master of Information and Data Science at UC Berkeley and will graduate in Spring 2023.
-* Currently taking courses on NLP with Deep Learning (W266) and Machine Learning at Scale (W261).
+* Pursuing a Master of Information and Data Science at UC Berkeley and expected graduation in May 2023.
+* Currently taking NLP with Deep Learning (W266) and Machine Learning at Scale (W261).
+* B.S. in Chemical Engineering and minor in Operations and Supply Chain Management from Carnegie Mellon Unviersity, Class of 2021.
 
 # Data Science Projects
 
 ## [**Metagenome Environment Classification**](https://github.com/sophieyeh256/W207_Final_Project)
 ### _Decision Tree, XGB, Neural Net, SHAP, Biotech_
-Anywhere there is life, there is bacteria. Microbiologists have sequenced metagenome samples to assemble 
-sets of protein families plus the environment classificaiton from which the sample was collected. 
-This project aims to create an environment classifier for protein samples and analyze the feature 
-importance within our final models.
-
+Environmental metagenomics is the study of organisms in a microbial community based on analyzing the DNS within an environmental sample. Examples include profiling microbial populations in water samples taken from deep ocean vents or in the human gut that protect the host from pathogens. Environmental metagenomics study data are used for agricultural microbiome analysis, ecological remediation, or other biological investigations. At the Joint Genome  Institute, microbiologists have sequenced metagenome samples to assemble sets of protein families and classified them by environment. **In order to open research to identify the origins of unknown microbial samples and better understand the underlying functions of protein families, this project aims to create a classifier that determines the environment of a microbial sample based on its composition of protein families.** Exploratory data analysis was conducted and a baseline decision tree model was used to benchmark against XGBoost and Convolutional Neural Network models. After hyperparameter tuning using Optuna, the XGBoost model achieved an F1-score of 93.08% and the Convolutional Neural Network achieved an F1-score of 92.30%, which is a significant improvement from the baseline decision tree's F1-score of 89.69%. Although class imbalance greatly limited our scoring and performance, SHAP analysis demonstrated that our XGBoost model is able to identify dominant protein families in an environment that have key functionalities.
 
 ## [**A Descriptive Analysis of Climate Change Accountability**](https://github.com/sophieyeh256/w200_project2_bluhm_kim_Yeh)
 ### _Data Visualization, Matplotlib, Plotly, Climate_
