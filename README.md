@@ -6,8 +6,8 @@
 * Currently taking NLP with Deep Learning (W266) and Machine Learning at Scale (W261).
 * B.S. in Chemical Engineering and minor in Operations and Supply Chain Management from Carnegie Mellon Unviersity, Class of 2021.
 
-<\span style="color:grey"> ## **Predicting Flight Delays** (Upcoming)
-In order for airlines to provide positive customer experience and respond quickly to flight delays, it is important to that coordinators are notified as soon as possible. This project uses flights data from the US Department of Transportation and weather data from the National Oceanic and Atmospheric repository to build a machine learning model predicting flight delays two hours ahead of departure. The large datasets will be stored in Databricks. The processing pipeline and machine learning model will be built using Spark and Python.<\span>
+<\span style="color:grey"> ## **Predicting Flight Delays** (Upcoming)<\span>
+In order for airlines to provide positive customer experience and respond quickly to flight delays, it is important to that coordinators are notified as soon as possible. This project uses flights data from the US Department of Transportation and weather data from the National Oceanic and Atmospheric repository to build a machine learning model predicting flight delays two hours ahead of departure. The large datasets will be stored in Databricks. The processing pipeline and machine learning model will be built using Spark and Python.
 
 ## [**Metagenome Environment Classification**](https://github.com/sophieyeh256/W207_Final_Project)
 ### _Decision Tree, XGB, Neural Net, SHAP, Biotech_
