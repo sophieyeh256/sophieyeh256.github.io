@@ -8,8 +8,7 @@
 
 
 ## [**Metagenome Environment Classification**](https://github.com/sophieyeh256/W207_Final_Project)
-_Decision Tree, XGB, Neural Net, SHAP, Biotech_
-
+### _Decision Tree, XGB, Neural Net, SHAP, Biotech_
 Environmental metagenomics is the study of organisms in a microbial community based on analyzing the DNS within an environmental sample. Examples include profiling microbial populations in water samples taken from deep ocean vents or in the human gut that protect the host from pathogens. Environmental metagenomics study data are used for agricultural microbiome analysis, ecological remediation, or other biological investigations. At the Joint Genome  Institute, microbiologists have sequenced metagenome samples to assemble sets of protein families and classified them by environment. **In order to open research to identify the origins of unknown microbial samples and better understand the underlying functions of protein families, this project aims to create a classifier that determines the environment of a microbial sample based on its composition of protein families.** Exploratory data analysis was conducted and a baseline decision tree model was used to benchmark against XGBoost and Convolutional Neural Network models. After hyperparameter tuning using Optuna, the XGBoost model achieved an F1-score of 93.08% and the Convolutional Neural Network achieved an F1-score of 92.30%, which is a significant improvement from the baseline decision tree's F1-score of 89.69%. Although class imbalance greatly limited our scoring and performance, SHAP analysis demonstrated that our XGBoost model is able to identify dominant protein families in an environment that have key functionalities.
 
 
