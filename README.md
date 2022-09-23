@@ -1,29 +1,26 @@
-# Hi, I'm Sophie! 👋
+# Welcome to Sophie's Data Science Project Portfolio! 👋
 
-# Bio
+## Bio
 * Working at DuPont as a Data & Systems Analyst in Product Stewardship and Regulatory, participating in the Supply Chain Rotational Program.
 * Pursuing a Master of Information and Data Science at UC Berkeley and expected graduation in May 2023.
 * Currently taking NLP with Deep Learning (W266) and Machine Learning at Scale (W261).
 * B.S. in Chemical Engineering and minor in Operations and Supply Chain Management from Carnegie Mellon Unviersity, Class of 2021.
 
-# Data Science Projects
 
 ## [**Metagenome Environment Classification**](https://github.com/sophieyeh256/W207_Final_Project)
-### _Decision Tree, XGB, Neural Net, SHAP, Biotech_
+_Decision Tree, XGB, Neural Net, SHAP, Biotech_
 Environmental metagenomics is the study of organisms in a microbial community based on analyzing the DNS within an environmental sample. Examples include profiling microbial populations in water samples taken from deep ocean vents or in the human gut that protect the host from pathogens. Environmental metagenomics study data are used for agricultural microbiome analysis, ecological remediation, or other biological investigations. At the Joint Genome  Institute, microbiologists have sequenced metagenome samples to assemble sets of protein families and classified them by environment. **In order to open research to identify the origins of unknown microbial samples and better understand the underlying functions of protein families, this project aims to create a classifier that determines the environment of a microbial sample based on its composition of protein families.** Exploratory data analysis was conducted and a baseline decision tree model was used to benchmark against XGBoost and Convolutional Neural Network models. After hyperparameter tuning using Optuna, the XGBoost model achieved an F1-score of 93.08% and the Convolutional Neural Network achieved an F1-score of 92.30%, which is a significant improvement from the baseline decision tree's F1-score of 89.69%. Although class imbalance greatly limited our scoring and performance, SHAP analysis demonstrated that our XGBoost model is able to identify dominant protein families in an environment that have key functionalities.
+
 
 ## [**A Descriptive Analysis of Climate Change Accountability**](https://github.com/sophieyeh256/w200_project2_bluhm_kim_Yeh)
 ### _Data Visualization, Matplotlib, Plotly, Climate_
 One major debate at the 2021 UN Climate Change Conference is whether the world's wealthiest nations are the most responsible 
-for global warming and whether they should compensate poorer nations for increasingly severe weather. Thus, this project aims 
-to visualize and compare the severe weather experience between high- and low-polluters in the world.
+for global warming and whether they should compensate poorer nations for increasingly severe weather. To better understand the biases and implications of this debate, this project provides aesthetically pleasing and insightful visualizations to compare the severe weather and pollution experience between high- and low-polluting countries in the world.
 
 
 ## [**ACME Delivery Analytics**](https://github.com/sophieyeh256/DataEng_SQL/blob/main/ucb_mids_w205_project_3/Acme%20Delivery%20Strategy.pdf)
 ### _SQL, Neo4J, Data Engineering, Sales Analytics, Data Visualization_
-ACME, a lunch delivery business, is looking into opening more locations in the Bay Area and investing in robots and/or drones in the future. 
-Customer data, sales data, and store data were queried using SQL and Neo4J then analyzed to assess business considerations.
-
+ACME, a lunch delivery business, is looking into opening more locations in the Bay Area and investing in robots and/or drones in the future. Querying customer, sales, and store data using PostgreSQL, we analyzed the geographic radius of ACME's customer database and their buying frequency. Neo4J was used to query store locations and assess the store locations and their shortest paths using the BERT public transportation system. As part of our recommendations, we identified 3 key BERT stations with high population and degree centrality that can serve as an effective pickup location. Since most orders only involve one item and the majority of the customer base is within 4 miles of stores, we recommend a hybrid approach in future technology investments - starting with using drones and/or robots doing last-mile deliveries to customers in close locations and using BERT pickup locations and other brick-and-mortar stores as departure points.
 
 ## [**FIFA Player Market Value Factors**](https://github.com/sophieyeh256/ucb_mids_w203_lab2)
 ### _R, Linear Regression, Feature Selection, Hypothesis Testing, Large Sample Assumptions, sports_
